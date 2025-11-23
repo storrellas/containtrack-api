@@ -6,4 +6,4 @@ from rest_framework.response import Response
 
 class HelloWordAPIView(views.APIView):
     def get(self, request):
-        return Response({"message": "Hello, World! - from ContainTrack API"})
+        return Response({"message": "Hello, World! - from ContainTrack API - From Vercel"})
