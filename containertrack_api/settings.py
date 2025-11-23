@@ -83,7 +83,7 @@ DATABASES = {
         "NAME": os.getenv("DB_NAME", "postgres"),
         "USER": os.getenv("DB_USER", "postgres.xvdooibngfbhbclgnqrs"),
         "HOST": os.getenv("DB_HOST", "aws-1-eu-central-2.pooler.supabase.com"),
-        "PASSWORD": os.getenv("DB_PASSWORD", "containtrack2025"),
+        "PASSWORD": os.getenv("DB_PASSWORD", "containtrack2000"),
         "PORT": os.getenv("DB_PORT", 6543),  # default postgres port
     }
 }
